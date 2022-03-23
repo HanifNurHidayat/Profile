@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="sekolah">SMP N 01 JATEN</string>
+    <string name="profil_sekolah">PROFIL SEKOLAH</string>
+    <string name="nama_sekolah">Nama Sekolah	:	SMP N 1 JATEN</string>
+    <string name="npsn_sekolah">NPSN	:	20312058</string>
+    <string name="nss_sekolah">NSS	:	201031311054</string>
+    <string name="alamat_sekolah">Alamat	:	Jl. Lawu Jaten Karanganyar</string>
+    <string name="visi_misi">Visi dan Misi</string>
+    <string name="visi">A.	Visi Sekolah:</string>
+    <string name="isi_visi">“Terwujudnya lulusan yang berbudi, sehat, dan berprestasi,serta berwawasan lingkungan”</string>
+    <string name="misi">B.	Misi Sekolah :</string>
+    <string name="isi_misi_1">1. Meningkatkan pembinaan keagamaan, ibadah, dan doa.</string>
+    <string name="isi_misi_2">2. Membiasakan perilaku sopan dan santun serta akhlak mulia.</string>
+    <string name="isi_misi_3">3. Membiasakan hidup sehat melalui olahraga dan perilaku sehat.</string>
+    <string name="isi_misi_4">4. Meningkatkan prestasi akademik dan non akademik.</string>
+    <string name="isi_misi_5">5. Meningkatkan prestasi akademik dan non akademik.</string>
+    <string name="isi_misi_6">6. Melaksanakan program 7K dan pengelolaan lingkungan hidup.</string>
+</resources>
