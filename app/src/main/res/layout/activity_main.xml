@@ -57,10 +57,10 @@
                     android:id="@+id/iv_image"
                     android:layout_width="150dp"
                     android:layout_height="130dp"
-                    android:onClick="profileclick"
                     android:paddingTop="10dp"
                     android:paddingBottom="30dp"
-                    android:src="@drawable/profile" />
+                    android:src="@drawable/profile"
+                    android:onClick="profileclick"/>
 
                 <TextView
                     android:id="@+id/iv_text"

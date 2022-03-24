@@ -40,8 +40,6 @@
                     android:text="@string/identitas_sekolah"
                     android:textSize="11sp"
                     android:padding="10sp"
-                    android:lineSpacingMultiplier="1.5"
-                    android:letterSpacing="0.1"
                     android:textColor="@color/black"/>
 
                 <TextView
@@ -83,7 +81,6 @@
                     android:text="@string/isi_misi"
                     android:textSize="11sp"
                     android:padding="5sp"
-                    android:lineSpacingExtra="5sp"
                     android:textColor="@color/black"/>
 
 
