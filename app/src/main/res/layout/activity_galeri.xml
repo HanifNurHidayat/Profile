@@ -22,32 +22,27 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/iv_cardview1"
-                        android:src="@drawable/protokol"
+                        android:src="@drawable/upacara_bendera_4"
+                        android:layout_centerHorizontal="true"
                         android:scaleType="centerCrop"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp" />
-                    <TextView
-                        android:text="Galeri1"
-                        android:textColor="#f7f6f6"
-                        android:layout_alignBottom="@id/iv_cardview1"
-                        android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="225dp" />
+
                     <TextView
                         android:id="@+id/tv_cardview1"
-                        android:text="Galeri1"
-                        android:layout_margin="16dp"
-                        android:textSize="16sp"
-                        android:layout_below="@id/iv_cardview1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_cardview1"
+                        android:layout_margin="16dp"
+                        android:text="Album Kegiatan Pelaksanaan Upacara Bendera"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
 
 
                 </RelativeLayout>
@@ -59,32 +54,26 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/iv_cardview2"
-                        android:src="@drawable/protokol"
+                        android:src="@drawable/ultah_sekolah_4"
                         android:scaleType="centerCrop"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp" />
-                    <TextView
-                        android:text="Galeri2"
-                        android:textColor="#f7f6f6"
-                        android:layout_alignBottom="@id/iv_cardview2"
-                        android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="225dp" />
+
                     <TextView
                         android:id="@+id/tv_cardview2"
-                        android:text="Galeri2"
+                        android:text="Album Perayaan Ulang Tahun Sekolah"
                         android:layout_margin="16dp"
                         android:textSize="16sp"
                         android:layout_below="@id/iv_cardview2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"/>
 
 
                 </RelativeLayout>
@@ -96,32 +85,26 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/iv_cardview3"
-                        android:src="@drawable/protokol"
+                        android:src="@drawable/hari_kartini_4"
                         android:scaleType="centerCrop"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp" />
-                    <TextView
-                        android:text="Galeri3"
-                        android:textColor="#f7f6f6"
-                        android:layout_alignBottom="@id/iv_cardview3"
-                        android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="225dp" />
+
                     <TextView
                         android:id="@+id/tv_cardview3"
-                        android:text="Galeri3"
+                        android:text="Album Kegiatan Memperingati Hari Kartini"
                         android:layout_margin="16dp"
                         android:textSize="16sp"
                         android:layout_below="@id/iv_cardview3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"/>
 
 
                 </RelativeLayout>
@@ -133,32 +116,57 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/iv_cardview4"
-                        android:src="@drawable/protokol"
+                        android:src="@drawable/study_tour_2"
                         android:scaleType="centerCrop"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp" />
-                    <TextView
-                        android:text="Galeri4"
-                        android:textColor="#f7f6f6"
-                        android:layout_alignBottom="@id/iv_cardview4"
-                        android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="225dp" />
+
                     <TextView
                         android:id="@+id/tv_cardview4"
-                        android:text="Galeri4"
+                        android:text="Album Kegiatan Study Tour"
                         android:layout_margin="16dp"
                         android:textSize="16sp"
                         android:layout_below="@id/iv_cardview4"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"/>
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/iv_cardview4"
+                        android:src="@drawable/idul_adha_6"
+                        android:scaleType="centerCrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp" />
+
+                    <TextView
+                        android:id="@+id/tv_cardview4"
+                        android:text="Album Perayaan Idul Adha"
+                        android:layout_margin="16dp"
+                        android:textSize="16sp"
+                        android:layout_below="@id/iv_cardview4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"/>
 
 
                 </RelativeLayout>

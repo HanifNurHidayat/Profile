@@ -1,19 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <resources>
     <string name="app_name">Profile</string>
     <string name="sekolah">SMP N 01 JATEN</string>
     <string name="profil_sekolah">PROFIL SEKOLAH</string>
-    <string name="nama_sekolah">Nama Sekolah	:	SMP N 1 JATEN</string>
-    <string name="npsn_sekolah">NPSN	:	20312058</string>
-    <string name="nss_sekolah">NSS	:	201031311054</string>
-    <string name="alamat_sekolah">Alamat	:	Jl. Lawu Jaten Karanganyar</string>
+    <string name="identitas_sekolah">\n
+Nama Sekolah	    :	SMP N 1 JATEN\n
+NPSN	            :	20312058\n
+NSS	                :	201031311054\n
+Bentuk Pendidikan	:	SMP\n
+Alamat	            :	Jl. Lawu Jaten Karanganyar\n
+Kecamatan	        :	Kec. Jaten\n
+Kabupaten/Kota	    :	Kab. Karanganyar\n
+Propinsi	        :	Prop. Jawa Tengah\n
+Kode Pos	        :	57771\n
+Status Sekolah	    :	Negeri\n
+Status Kepemilikan	:	Pemerintah Daerah</string>
     <string name="visi_misi">Visi dan Misi</string>
     <string name="visi">A.	Visi Sekolah:</string>
     <string name="isi_visi">“Terwujudnya lulusan yang berbudi, sehat, dan berprestasi,serta berwawasan lingkungan”</string>
     <string name="misi">B.	Misi Sekolah :</string>
-    <string name="isi_misi_1">1. Meningkatkan pembinaan keagamaan, ibadah, dan doa.</string>
-    <string name="isi_misi_2">2. Membiasakan perilaku sopan dan santun serta akhlak mulia.</string>
-    <string name="isi_misi_3">3. Membiasakan hidup sehat melalui olahraga dan perilaku sehat.</string>
-    <string name="isi_misi_4">4. Meningkatkan prestasi akademik dan non akademik.</string>
-    <string name="isi_misi_5">5. Meningkatkan prestasi akademik dan non akademik.</string>
-    <string name="isi_misi_6">6. Melaksanakan program 7K dan pengelolaan lingkungan hidup.</string>
+    <string name="isi_misi">\n
+        1. Meningkatkan pembinaan keagamaan, ibadah, dan doa.\n
+    2. Membiasakan perilaku sopan dan santun serta akhlak mulia.\n
+    3. Membiasakan hidup sehat melalui olahraga dan perilaku sehat.\n
+    4. Meningkatkan prestasi akademik dan non akademik.\n
+    5. Meningkatkan prestasi akademik dan non akademik.\n
+        6. Melaksanakan program 7K dan pengelolaan lingkungan hidup.</string>
+    <string name="osis">ORGANISASI OSIS</string>
+    <string name="pramuka">ORGANISASI PRAMUKA</string>
+    <string name="pmr">ORGANISASI PMR</string>
+    <string name="voli">VOLI</string>
+    <string name="karate">KARATE</string>
+    <string name="fasilitas_lab_ipa">Fasilitas Laboratorium IPA terdiri dari Lab Fisika, Lab Bahasa, dan Lab Biologi, yang mana Lab-Lab tersebut digunakan untuk kegiatan pembelajaran dan praktikum siswa. Peralatan yang dibutuhkan untuk kegiatan praktikum juga sudah cukup lengkap.</string>
+    <string name="fasilitas_masjid">Masjid adalah tempat ibadah untuk umat islam, yang mana ibadah juga merupakan kebutuhan wajib setiap orang. Dikarenakan sebagian besar siswa SMPN 01 JATEN adalah muslim, maka dari itu diperlukan masjid untuk sarana ibadah.</string>
+    <string name="fasilitas_perpustakaan">Fasilitas Perpustakaan berupa rak buku yang berisikan banyak jenis buku. Tujuan disediakannya berbagai jenis buku agar siswa tidak jenuh saat belajar dan juga siswa dapat membaca buku tentang refrerensi pelaran sehingga dapat menunjang belajar siswa. Ruang perpustakaan juga menyediakan fasilitas kipas angin, meja, dan kursi baca agar siswa nyaman saat membaca.</string>
+    <string name="fasilitas_lab_komputer">Laboratorium Komputer SMPN 01 JATEN terdapat 3 ruang dan setiap ruang menyediakan banyak unit Komputer, serta  dilengkapi dengan Projector. Spesifikasi Komputer di sini menyesuaikan dengan kebutuhan pengajaran. Biasanya "Labkom" digunakan untuk sarana saat ujian nasional atau "UN" berlangsung.</string>
+    <string name="nama_guru_1">Drs. Harry Pramudjoko</string>
+    <string name="jabatan_guru_1">KEPALA SEKOLAH</string>
+    <string name="nip_guru_1">19680115 199703 1 003</string>
+    <string name="mapel_guru_1">PPKn</string>
+    <string name="nama_guru_2">Slamet Harmono, S.Pd,S.Kom,MM</string>
+    <string name="jabatan_guru_2">WKS Sarpras</string>
+    <string name="nip_guru_2">196302061985011002</string>
+    <string name="mapel_guru_2">TIK</string>
+    <string name="nama_guru_3">Dawam, S.Pd, M.Si</string>
+    <string name="jabatan_guru_3">WKS Kurikulum</string>
+    <string name="nip_guru_3">196008281985011002</string>
+    <string name="mapel_guru_3">IPA</string>
+    <string name="nama_guru_4">Yuni Sri Rejeki, S.Pd</string>
+    <string name="jabatan_guru_4">WKS Kesiswaan</string>
+    <string name="nip_guru_4">197606222009022001</string>
+    <string name="mapel_guru_4">Matematika</string>
+    <string name="nama_guru_5">Priyo Widayanto, S.Pd</string>
+    <string name="jabatan_guru_5">Ka Laborat</string>
+    <string name="nip_guru_5">198003042008011008</string>
+    <string name="mapel_guru_5">Bahasa Indonesia</string>
+    <string name="nama_guru_6">Sukarno Hendro Atmojo, S.Pd</string>
+    <string name="jabatan_guru_6">Ka Perpus</string>
+    <string name="nip_guru_6">196406062006041005</string>
+    <string name="mapel_guru_6">Bahasa Indonesia</string>
+    <string name="nama_guru_7">Nanik Priandjani, S.Pd</string>
+    <string name="nip_guru_7">197204242008012004</string>
+    <string name="mapel_guru_7">Bahasa Jawa</string>
+    <string name="nama_guru_8">Fatimah, S.Pd, M.Pd</string>
+    <string name="nip_guru_8">196502092006042003</string>
+    <string name="mapel_guru_8">Bahasa Inggris</string>
+    <string name="nama_guru_9">Herawan Andreas W., S.Pd</string>
+    <string name="nip_guru_9">196908172005011013</string>
+    <string name="mapel_guru_9">IPS</string>
+    <string name="nama_guru_10">Catur Rini, S.Pd</string>
+    <string name="nip_guru_10">197210142003122002</string>
+    <string name="mapel_guru_10">SBK</string>
+    <string name="nama_guru_11">Katrin Kusala, S.Pd</string>
+    <string name="nip_guru_11">196911222007012014</string>
+    <string name="mapel_guru_11">Bahasa Indonesia</string>
+
 </resources>

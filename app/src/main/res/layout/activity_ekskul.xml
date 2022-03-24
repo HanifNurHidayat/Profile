@@ -20,18 +20,19 @@
             android:background="@drawable/background">
 
             <ImageView
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black"/>
+                android:background="@drawable/logo_osis"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/app_name"
-                android:textStyle="bold"/>
+                android:text="@string/osis"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
         <LinearLayout
@@ -42,18 +43,19 @@
             android:background="@drawable/background">
 
             <ImageView
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black"/>
+                android:background="@drawable/logo_pramuka"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/app_name"
-                android:textStyle="bold"/>
+                android:text="@string/pramuka"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
         <LinearLayout
@@ -64,18 +66,19 @@
             android:background="@drawable/background">
 
             <ImageView
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black"/>
+                android:background="@drawable/logo_pmr"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/app_name"
-                android:textStyle="bold"/>
+                android:text="@string/pmr"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
         <LinearLayout
@@ -86,18 +89,19 @@
             android:background="@drawable/background">
 
             <ImageView
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black"/>
+                android:background="@drawable/logo_voli"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/app_name"
-                android:textStyle="bold"/>
+                android:text="@string/voli"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
         <LinearLayout
@@ -108,18 +112,19 @@
             android:background="@drawable/background">
 
             <ImageView
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black"/>
+                android:background="@drawable/logo_karate"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/app_name"
-                android:textStyle="bold"/>
+                android:text="@string/karate"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
     </LinearLayout>

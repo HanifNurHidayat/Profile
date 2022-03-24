@@ -23,32 +23,39 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <ImageView
                         android:id="@+id/iv_cardview1"
-                        android:src="@drawable/protokol"
-                        android:scaleType="centerCrop"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp" />
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/lab_komputer" />
+
                     <TextView
-                        android:text="Cardview1"
-                        android:textColor="#f7f6f6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_alignBottom="@id/iv_cardview1"
                         android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:text="LAB KOMPUTER"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
                     <TextView
                         android:id="@+id/tv_cardview1"
-                        android:text="Cardview1"
-                        android:layout_margin="16dp"
-                        android:textSize="16sp"
-                        android:layout_below="@id/iv_cardview1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_cardview1"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/fasilitas_lab_komputer"
+                        android:textColor="@color/black"
+                        android:textSize="11sp" />
 
 
                 </RelativeLayout>
@@ -59,32 +66,37 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/iv_cardview2"
-                        android:src="@drawable/protokol"
+                        android:src="@drawable/perpustakaan"
                         android:scaleType="centerCrop"
                         android:layout_width="match_parent"
                         android:layout_height="150dp" />
                     <TextView
-                        android:text="Cardview2"
-                        android:textColor="#f7f6f6"
+                        android:text="PERPUSTAKAAN"
+                        android:textColor="#FFFFFF"
                         android:layout_alignBottom="@id/iv_cardview2"
                         android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
+                        android:textSize="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
+
                     <TextView
                         android:id="@+id/tv_cardview2"
-                        android:text="Cardview2"
-                        android:layout_margin="16dp"
-                        android:textSize="16sp"
-                        android:layout_below="@id/iv_cardview2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_cardview2"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/fasilitas_perpustakaan"
+                        android:textColor="@color/black"
+                        android:textSize="11sp" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -94,32 +106,36 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <ImageView
                         android:id="@+id/iv_cardview3"
-                        android:src="@drawable/protokol"
-                        android:scaleType="centerCrop"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp" />
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/lab_ipa" />
+
                     <TextView
-                        android:text="Cardview3"
-                        android:textColor="#f7f6f6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_alignBottom="@id/iv_cardview3"
                         android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:text="LAB IPA"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp" />
+
                     <TextView
                         android:id="@+id/tv_cardview3"
-                        android:text="Cardview3"
+                        android:text="@string/fasilitas_lab_ipa"
                         android:layout_margin="16dp"
-                        android:textSize="16sp"
+                        android:textSize="11sp"
                         android:layout_below="@id/iv_cardview3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"/>
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -129,100 +145,31 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:id="@+id/iv_cardview4"
-                        android:src="@drawable/protokol"
+                        android:src="@drawable/masjid"
                         android:scaleType="centerCrop"
                         android:layout_width="match_parent"
                         android:layout_height="150dp" />
                     <TextView
-                        android:text="Cardview4"
-                        android:textColor="#f7f6f6"
+                        android:text="MASJID"
+                        android:textColor="#FFFFFF"
                         android:layout_alignBottom="@id/iv_cardview4"
                         android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
+                        android:textSize="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                     <TextView
                         android:id="@+id/tv_cardview4"
-                        android:text="Cardview4"
+                        android:text="@string/fasilitas_masjid"
                         android:layout_margin="16dp"
-                        android:textSize="16sp"
+                        android:textSize="11sp"
+                        android:textColor="@color/black"
                         android:layout_below="@id/iv_cardview4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginBottom="5dp"
-                android:layout_marginTop="15dp"
-                android:layout_width="match_parent"
-                android:layout_height="250dp">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <ImageView
-                        android:id="@+id/iv_cardview5"
-                        android:src="@drawable/protokol"
-                        android:scaleType="centerCrop"
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp" />
-                    <TextView
-                        android:text="Cardview5"
-                        android:textColor="#f7f6f6"
-                        android:layout_alignBottom="@id/iv_cardview5"
-                        android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                    <TextView
-                        android:id="@+id/tv_cardview5"
-                        android:text="Cardview5"
-                        android:layout_margin="16dp"
-                        android:textSize="16sp"
-                        android:layout_below="@id/iv_cardview5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginBottom="5dp"
-                android:layout_marginTop="15dp"
-                android:layout_width="match_parent"
-                android:layout_height="250dp">
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <ImageView
-                        android:id="@+id/iv_cardview6"
-                        android:src="@drawable/protokol"
-                        android:scaleType="centerCrop"
-                        android:layout_width="match_parent"
-                        android:layout_height="150dp" />
-                    <TextView
-                        android:text="Cardview6"
-                        android:textColor="#f7f6f6"
-                        android:layout_alignBottom="@id/iv_cardview6"
-                        android:layout_centerHorizontal="true"
-                        android:textSize="35sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                    <TextView
-                        android:id="@+id/tv_cardview6"
-                        android:text="Cardview6"
-                        android:layout_margin="16dp"
-                        android:textSize="16sp"
-                        android:layout_below="@id/iv_cardview6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
